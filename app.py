@@ -52,10 +52,10 @@ if st.session_state.current_idx < total_contacts:
     
     # The 3 Questions
     affluence = st.radio("💰 **Affluence Level**", 
-                         ['High Ticket', 'Medium', 'Low'])
+                         ['High Ticket', 'Medium', 'Low', 'Not sure'])
     
     relationship = st.radio("🤝 **Relationship**", 
-                            ['Very Close', 'Acquaintance', 'Strictly Professional'])
+                            ['Very Close', 'Acquaintance', 'Strictly Professional', 'Don't Remember'])
     
     persona = st.radio("👗 **Client Persona**", 
                        ['Regular', 'Not a Regular', "Don't Know"])
